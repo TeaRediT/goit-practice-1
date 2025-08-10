@@ -1,0 +1,291 @@
+/* common */
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #22343d;
+  background-color: #fff;
+}
+
+li,
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.container {
+  max-width: 1150px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* header */
+
+.header {
+}
+.container-header {
+  display: flex;
+}
+.header-logo {
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93;
+  color: #173a56;
+}
+
+.header-logo {
+  margin-right: 237px;
+}
+.header-nav {
+  margin-right: auto;
+}
+.header-nav-list {
+  display: flex;
+  gap: 30px;
+}
+.header-nav-item {
+}
+.header-nav-link {
+  line-height: 1.75;
+  color: #22343d;
+  padding: 26px 0;
+}
+
+.header-nav-link-product {
+  font-weight: 600;
+}
+.header-btn-list {
+  display: flex;
+  gap: 21px;
+  align-items: center;
+}
+.header-btn-item {
+}
+.header-btn {
+  font-weight: 600;
+  text-align: center;
+  color: #173a56;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  width: 105px;
+  height: 42px;
+  background-color: transparent;
+}
+
+.header-btn:hover,
+.header-btn:focus {
+  border: none;
+  border-radius: 4px;
+  width: 105px;
+  height: 42px;
+  color: #fff;
+  background-color: #02897a;
+}
+
+/* hero section */
+
+.hero-content-n-img {
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-title {
+  font-size: 40px;
+  line-height: 1.5;
+  margin-bottom: 18px;
+  max-width: 420px;
+}
+.hero-text {
+  line-height: 1.55;
+  color: #22343d;
+  max-width: 435px;
+  margin-bottom: 45px;
+}
+.hero-btn-list {
+  display: flex;
+  gap: 30px;
+}
+.hero-btn-item {
+}
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  width: 178px;
+  height: 53px;
+  background: #02897a;
+}
+
+.hero-btn-video {
+  font-weight: 600;
+  text-decoration: underline;
+  color: #02897a;
+  background-color: transparent;
+  width: 164px;
+}
+.hero-img {
+}
+
+/* benefits-section */
+
+.benefits-section {
+  padding: 100px 0 50px 0;
+}
+.benefits-title {
+  max-width: 483px;
+  text-align: center;
+  margin: 0 auto 50px auto;
+  font-size: 32px;
+}
+.benefits-list {
+  display: flex;
+  gap: 30px;
+}
+.benefits-item {
+  width: calc((100% - 90px) / 4);
+}
+
+.benefits-item-img {
+  margin-bottom: 26px;
+}
+
+.benefits-item-title {
+  margin-bottom: 13px;
+
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.benefits-item-text {
+  line-height: 1.62;
+}
+
+.benefits-btn {
+  margin: 50px auto 0 auto;
+  display: block;
+
+  min-width: 175px;
+  height: 53px;
+  border-radius: 4px;
+  border: none;
+  text-transform: uppercase;
+  background-color: #02897a;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* main content */
+
+.main-content-section {
+  padding: 50px 0 150px 0;
+}
+.main-content-list {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.main-content-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-content-item-content-1,
+.main-content-item-content-3 {
+  max-width: 460px;
+}
+
+.main-content-item-content-2 {
+  max-width: 445px;
+}
+
+.main-content-item-title {
+  font-size: 32px;
+  max-width: 304px;
+
+  margin-bottom: 25px;
+}
+.main-content-item-title-span {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.main-content-item-text {
+  line-height: 1.63;
+
+  margin-bottom: 30px;
+}
+.main-content-item2-text {
+  line-height: 1.63;
+}
+
+.main-content-list2 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.main-content-item2 {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.main-content-item2-child2 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.main-content-item2-title {
+}
